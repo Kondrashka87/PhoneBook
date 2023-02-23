@@ -1,0 +1,46 @@
+18:33:29.623  INFO  manager.ListenerTNG - onStart ---> Gradle suite
+18:33:32.177  INFO  manager.ApplicationManager - All tests start in Chrome Browser
+18:33:34.336  INFO  manager.ApplicationManager - Current Url ---->https://telranedu.web.app/home
+18:33:34.340  INFO  manager.ListenerTNG - onStart ---> Gradle test
+18:33:34.376  INFO  tests.TestBase - The name of starts method is --->loginSuccess
+18:33:34.378  INFO  manager.ListenerWD - Before find elements ---> By.xpath: //button[text()='Sign Out']
+18:33:39.415  INFO  manager.ListenerWD - After find elements ---> By.xpath: //button[text()='Sign Out']
+18:33:39.418  INFO  manager.ListenerWD - List size is ---> 0
+18:33:39.420  INFO  manager.ListenerTNG - onTestStart ---> loginSuccess
+18:33:39.429  INFO  tests.TestBase - Login with valid data: Email:doshka1mail.ru& Password: Kotic14025$
+18:33:39.430  INFO  manager.ListenerWD - Before find element ---> By.cssSelector: a[href ^='/lo']
+18:33:39.466  INFO  manager.ListenerWD - After find element ---> By.cssSelector: a[href ^='/lo']
+18:33:39.567  INFO  manager.ListenerWD - Before find element ---> By.cssSelector: input[name = 'email']
+18:33:39.608  INFO  manager.ListenerWD - After find element ---> By.cssSelector: input[name = 'email']
+18:33:39.806  INFO  manager.ListenerWD - Before find element ---> By.cssSelector: input[name = 'password']
+18:33:39.835  INFO  manager.ListenerWD - After find element ---> By.cssSelector: input[name = 'password']
+18:33:39.954  INFO  manager.ListenerWD - Before find element ---> By.cssSelector: button:first-of-type
+18:33:39.979  INFO  manager.ListenerWD - After find element ---> By.cssSelector: button:first-of-type
+18:33:40.015  INFO  manager.ListenerWD - Before find elements ---> By.xpath: //button[text()='Sign Out']
+18:33:41.096  INFO  manager.ListenerWD - After find elements ---> By.xpath: //button[text()='Sign Out']
+18:33:41.096  INFO  manager.ListenerWD - List size is ---> 0
+18:33:41.102  INFO  manager.ListenerTNG - onTestFailure ---> loginSuccess
+18:33:41.103  INFO  tests.TestBase - The name of starts method is --->loginSuccess
+18:33:41.103  INFO  manager.ListenerWD - Before find elements ---> By.xpath: //button[text()='Sign Out']
+18:33:41.122  INFO  manager.ListenerWD - The have a 'problem'
+18:33:41.123  INFO  manager.ListenerWD - *******************
+18:33:41.123  INFO  manager.ListenerWD - Method methodfindElements
+18:33:41.124  INFO  manager.ListenerWD - *******************
+18:33:41.126  INFO  manager.ListenerWD - InvocationTarget getTargetException()org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Wrong email or password}
+  (Session info: chrome=109.0.5414.120): Wrong email or password
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8383b46fb4b1f85a88349326f2b97277, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\size7\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49243}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49243/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8383b46fb4b1f85a88349326f2b97277
+18:33:41.126  INFO  manager.ListenerWD - *******************
+18:33:41.127  INFO  manager.ListenerWD - Object targetChromeDriver: chrome on WINDOWS (8383b46fb4b1f85a88349326f2b97277)
+18:33:41.127  INFO  manager.ListenerWD - *******************
+18:33:41.131  INFO  manager.ListenerWD - Screen with error is ---> src/test/screenshots/screen-198.png
+18:33:41.650  INFO  manager.ListenerTNG - onTestStart ---> loginSuccess
+18:33:41.651  INFO  manager.ListenerTNG - onTestSkipped ---> loginSuccess
+18:33:41.652  INFO  manager.ListenerTNG - onTestStart ---> loginSuccess
+18:33:41.653  INFO  manager.ListenerTNG - onTestSkipped ---> loginSuccess
+18:33:41.656  INFO  manager.ListenerTNG - onFinish ---> Gradle test
+18:33:41.660  INFO  manager.ListenerTNG - onFinish ---> Gradle suite

@@ -1,0 +1,69 @@
+18:38:34.671  INFO  manager.ListenerTNG - onStart ---> Gradle suite
+18:38:37.182  INFO  manager.ApplicationManager - All tests start in Chrome Browser
+18:38:39.180  INFO  manager.ApplicationManager - Current Url ---->https://telranedu.web.app/home
+18:38:39.184  INFO  manager.ListenerTNG - onStart ---> Gradle test
+18:38:39.231  INFO  tests.TestBase - The name of starts method is --->loginSuccess
+18:38:39.233  INFO  manager.ListenerWD - Before find elements ---> By.xpath: //button[text()='Sign Out']
+18:38:44.261  INFO  manager.ListenerWD - After find elements ---> By.xpath: //button[text()='Sign Out']
+18:38:44.264  INFO  manager.ListenerWD - List size is ---> 0
+18:38:44.266  INFO  manager.ListenerTNG - onTestStart ---> loginSuccess
+18:38:44.277  INFO  tests.TestBase - Login with valid data: Email:koshka1@mail.ru& Password: Kotic14025$
+18:38:44.277  INFO  manager.ListenerWD - Before find element ---> By.cssSelector: a[href ^='/lo']
+18:38:44.318  INFO  manager.ListenerWD - After find element ---> By.cssSelector: a[href ^='/lo']
+18:38:44.419  INFO  manager.ListenerWD - Before find element ---> By.cssSelector: input[name = 'email']
+18:38:44.460  INFO  manager.ListenerWD - After find element ---> By.cssSelector: input[name = 'email']
+18:38:44.631  INFO  manager.ListenerWD - Before find element ---> By.cssSelector: input[name = 'password']
+18:38:44.657  INFO  manager.ListenerWD - After find element ---> By.cssSelector: input[name = 'password']
+18:38:44.788  INFO  manager.ListenerWD - Before find element ---> By.cssSelector: button:first-of-type
+18:38:44.809  INFO  manager.ListenerWD - After find element ---> By.cssSelector: button:first-of-type
+18:38:44.852  INFO  manager.ListenerWD - Before find elements ---> By.xpath: //button[text()='Sign Out']
+18:38:45.844  INFO  manager.ListenerWD - After find elements ---> By.xpath: //button[text()='Sign Out']
+18:38:45.844  INFO  manager.ListenerWD - List size is ---> 1
+18:38:45.846  INFO  tests.TestBase - Tests success
+18:38:45.848  INFO  manager.ListenerTNG - onTestSuccess ---> loginSuccess
+18:38:45.850  INFO  tests.TestBase - The name of starts method is --->loginSuccess
+18:38:45.850  INFO  manager.ListenerWD - Before find elements ---> By.xpath: //button[text()='Sign Out']
+18:38:45.866  INFO  manager.ListenerWD - After find elements ---> By.xpath: //button[text()='Sign Out']
+18:38:45.866  INFO  manager.ListenerWD - List size is ---> 1
+18:38:45.866  INFO  manager.ListenerWD - Before find element ---> By.xpath: //button[text()='Sign Out']
+18:38:45.888  INFO  manager.ListenerWD - After find element ---> By.xpath: //button[text()='Sign Out']
+18:38:45.920  INFO  tests.TestBase - I need logout
+18:38:45.921  INFO  manager.ListenerTNG - onTestStart ---> loginSuccess
+18:38:45.921  INFO  tests.TestBase - Login with valid data: Email:koshka1@mail.ru& Password: Kotic14025$
+18:38:45.921  INFO  manager.ListenerWD - Before find element ---> By.cssSelector: a[href ^='/lo']
+18:38:45.943  INFO  manager.ListenerWD - After find element ---> By.cssSelector: a[href ^='/lo']
+18:38:45.987  INFO  manager.ListenerWD - Before find element ---> By.cssSelector: input[name = 'email']
+18:38:46.004  INFO  manager.ListenerWD - After find element ---> By.cssSelector: input[name = 'email']
+18:38:46.139  INFO  manager.ListenerWD - Before find element ---> By.cssSelector: input[name = 'password']
+18:38:46.157  INFO  manager.ListenerWD - After find element ---> By.cssSelector: input[name = 'password']
+18:38:46.280  INFO  manager.ListenerWD - Before find element ---> By.cssSelector: button:first-of-type
+18:38:46.302  INFO  manager.ListenerWD - After find element ---> By.cssSelector: button:first-of-type
+18:38:46.333  INFO  manager.ListenerWD - Before find elements ---> By.xpath: //button[text()='Sign Out']
+18:38:46.622  INFO  manager.ListenerWD - After find elements ---> By.xpath: //button[text()='Sign Out']
+18:38:46.622  INFO  manager.ListenerWD - List size is ---> 1
+18:38:46.622  INFO  tests.TestBase - Tests success
+18:38:46.623  INFO  manager.ListenerTNG - onTestSuccess ---> loginSuccess
+18:38:46.625  INFO  tests.TestBase - The name of starts method is --->loginSuccess
+18:38:46.626  INFO  manager.ListenerWD - Before find elements ---> By.xpath: //button[text()='Sign Out']
+18:38:46.642  INFO  manager.ListenerWD - After find elements ---> By.xpath: //button[text()='Sign Out']
+18:38:46.642  INFO  manager.ListenerWD - List size is ---> 1
+18:38:46.643  INFO  manager.ListenerWD - Before find element ---> By.xpath: //button[text()='Sign Out']
+18:38:46.659  INFO  manager.ListenerWD - After find element ---> By.xpath: //button[text()='Sign Out']
+18:38:46.694  INFO  tests.TestBase - I need logout
+18:38:46.695  INFO  manager.ListenerTNG - onTestStart ---> loginSuccess
+18:38:46.695  INFO  tests.TestBase - Login with valid data: Email:koshka1@mail.ru& Password: Kotic14025$
+18:38:46.696  INFO  manager.ListenerWD - Before find element ---> By.cssSelector: a[href ^='/lo']
+18:38:46.711  INFO  manager.ListenerWD - After find element ---> By.cssSelector: a[href ^='/lo']
+18:38:46.741  INFO  manager.ListenerWD - Before find element ---> By.cssSelector: input[name = 'email']
+18:38:46.755  INFO  manager.ListenerWD - After find element ---> By.cssSelector: input[name = 'email']
+18:38:46.883  INFO  manager.ListenerWD - Before find element ---> By.cssSelector: input[name = 'password']
+18:38:46.897  INFO  manager.ListenerWD - After find element ---> By.cssSelector: input[name = 'password']
+18:38:47.023  INFO  manager.ListenerWD - Before find element ---> By.cssSelector: button:first-of-type
+18:38:47.038  INFO  manager.ListenerWD - After find element ---> By.cssSelector: button:first-of-type
+18:38:47.073  INFO  manager.ListenerWD - Before find elements ---> By.xpath: //button[text()='Sign Out']
+18:38:47.402  INFO  manager.ListenerWD - After find elements ---> By.xpath: //button[text()='Sign Out']
+18:38:47.402  INFO  manager.ListenerWD - List size is ---> 1
+18:38:47.402  INFO  tests.TestBase - Tests success
+18:38:47.403  INFO  manager.ListenerTNG - onTestSuccess ---> loginSuccess
+18:38:47.406  INFO  manager.ListenerTNG - onFinish ---> Gradle test
+18:38:47.410  INFO  manager.ListenerTNG - onFinish ---> Gradle suite

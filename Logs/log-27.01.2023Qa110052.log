@@ -1,0 +1,25 @@
+11:00:54.732  INFO  manager.ApplicationManager - All tests start in Chrome Browser
+11:00:56.773  INFO  manager.ApplicationManager - Current Url ---->https://telranedu.web.app/home
+11:00:56.810  INFO  tests.TestBase - The name of starts method is --->loginSuccess
+11:00:56.812  INFO  manager.ListenerWD - Before find elements ---> By.xpath: //button[text()='Sign Out']
+11:01:01.846  INFO  manager.ListenerWD - After find elements ---> By.xpath: //button[text()='Sign Out']
+11:01:01.852  INFO  manager.ListenerWD - List size is ---> 0
+11:01:01.854  INFO  tests.TestBase - Login with valid data: Email: 'koshka1@mail.ru' & Password: 'Kotic14025$'
+11:01:01.856  INFO  manager.ListenerWD - Before find element ---> By.cssSelector: a[href ='/l']
+11:01:06.892  INFO  manager.ListenerWD - The have a 'problem'
+11:01:06.892  INFO  manager.ListenerWD - *******************
+11:01:06.893  INFO  manager.ListenerWD - Method methodfindElement
+11:01:06.894  INFO  manager.ListenerWD - *******************
+11:01:06.898  INFO  manager.ListenerWD - InvocationTarget getTargetException()org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"a[href ='/l']"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b16b1fe5592c038e6f81b9cf72244765, findElement {using=css selector, value=a[href ='/l']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\size7\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59381}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59381/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b16b1fe5592c038e6f81b9cf72244765
+11:01:06.899  INFO  manager.ListenerWD - *******************
+11:01:06.900  INFO  manager.ListenerWD - Object targetChromeDriver: chrome on WINDOWS (b16b1fe5592c038e6f81b9cf72244765)
+11:01:06.901  INFO  manager.ListenerWD - *******************
+11:01:06.910  INFO  manager.ListenerWD - Screen with error is ---> src/text/screenshots/sreen-571.png
